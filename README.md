@@ -5,10 +5,10 @@ A simple and efficient Todo App built using Vite and React.
 Follow the steps below to set up the project on your local machine:
 
 ## 1. Clone the repository
-``` git clone <repository-url> ```
+``` git clone git@github.com:bpn07/todo-app-e-digital.git ```
 
 ## 2. Navigate to the project directory
-``` cd vite-react-todo-app ```
+``` cd todo-app-e-digital ```
 
 ## 3. Install dependencies
 
@@ -24,7 +24,7 @@ Follow the steps below to set up the project on your local machine:
 ### Or using yarn:
 ```yarn dev```
 
-The application should now be running at http://localhost:5173/.
+The application should now be running at http://localhost:5173
 
 # Build for Production
 To build the app for production, run the following command:
