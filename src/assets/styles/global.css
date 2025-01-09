@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+body {
+  background-color: gray;
+  overflow: hidden;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  height: 610px;
+  margin: auto;
+  padding: 24px 24px;
+  background-color: rgb(145, 139, 255);
+  border-radius: 12px;
+  overflow: hidden;
+
+}
+.heading {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: white;
+}
+.todo-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.todo-field {
+  outline: none;
+  border: 1px solid gray;
+  padding: 16px;
+  font-size: 18px;
+  color: rgb(55, 55, 55);
+  border-radius: 12px;
+  width: 100%;
+}
+.btn {
+  outline: none;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn-add {
+  background-color: green;
+  color: white;
+}
+.btn-add:hover {
+  background-color: rgb(3, 153, 3);
+}
+.todo-list {
+  margin: 24px 0;
+  list-style-type: none;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 400px;
+  overflow-y: auto;
+}
+.todo-item {
+  background-color: white;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  border-radius: 12px;
+}
+.todo-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-remove {
+  padding: 8px;
+  font-size: 12px;
+  background-color: rgb(255, 84, 84);
+  color: white;
+}
+.btn-remove:hover {
+  background-color: rgb(255, 65, 65);
+}
+
+.btn-toggle {
+  padding: 12px 0;
+  width: 120px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+
+@media (max-width: 525px) {
+    .main-container{
+        padding: 12px;
+    }
+  .container {
+    width: 100%;
+  }
+  .todo-list{
+    padding: 16px 0px;
+  }
+}
