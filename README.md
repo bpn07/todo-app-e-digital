@@ -1,6 +1,26 @@
 # Vite React Todo App
 A simple and efficient Todo App built using Vite and React.
 
+## Features
+
+- Add new tasks
+- Toggle task completion
+- Remove tasks
+- Filter tasks to show completed or all tasks using toggle button
+- Data stored in `localStorage`
+- State Management with React State
+
+## Installation
+
+Follow these steps to get the app up and running on your local machine:
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (version 14 or higher)
+- **npm** (or **yarn**, but npm is recommended)
+
 # Getting Started
 Follow the steps below to set up the project on your local machine:
 
